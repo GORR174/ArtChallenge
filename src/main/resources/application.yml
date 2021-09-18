@@ -1,0 +1,11 @@
+spring:
+  application:
+    images-path: images/
+    url: http://localhost:8080
+
+  jpa:
+    generate-ddl: true
+  datasource:
+    url: jdbc:postgresql://localhost/DB_NAME
+    username: postgres
+    password: DB_PASSWORD

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ArtChallenge</title>
+
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+    <h3>Art Challenge</h3>
+
+    <form method="post" enctype="multipart/form-data" action="/image">
+        <input type="file" name="imageFile">
+        <input type="submit" value="Upload"/>
+    </form>
+
+    <div id="images_container"></div>
+
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+    <script src="images.js" type="text/babel"></script>
+</body>
+</html>
